@@ -1,0 +1,146 @@
+@media only screen and(max-width: 1200px){
+    
+}
+@media only screen and(max-width: 900px){
+    .dett_producto{
+        padding-right: 1em;
+    }
+    .ttdcx{
+        padding: 0 1em;
+    }
+    .det_blogs{
+        .spc_img_abt_us{
+            float: none!important;
+            width: 70%!important;
+            margin: 0 auto;
+        }
+    }
+    .spc_formmm, .spc_datos_comtcctt{
+        padding: 0 1em;
+        grid-column: span 2!important;
+    }
+        
+}
+
+
+@media only screen and(max-width: 700px){
+    header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 8;
+        width: 100%;
+        background-color: $base1;
+    }
+    
+    .cntrl_menu{
+        .menu{
+            position: absolute;
+            flex-direction: column;
+            top: 46px!important;
+            right: -160px;
+            z-index: 7;
+            background-color: $base1;
+            transition: .4s;
+            a{
+                margin: 0;
+                border: none!important;
+                border-radius: 0!important;
+                padding: 1em 2em;
+            }
+            a:hover{
+                background-color: $primary!important;
+                color: $base1!important;
+            }
+        }
+        .active{
+            right: 0px;
+        }
+    }
+    .cntrl_btm_menu_resp{
+        display: block!important;
+    }
+    .slider_contenntt{
+        
+        margin-top: 65px;
+        .slider{
+            height: calc(100vh - 65px)!important;
+            .cntrl_img_sliderr{
+                height: calc(100vh - 65px)!important;
+
+                img{
+                    height: 100%!important;
+                }
+            }
+        }
+    }
+    .colll{
+        grid-column: span 2!important;
+        padding: 0 1.5em;
+    }
+    .itm_blog{
+        grid-column: span 3!important;
+    }
+    .llldd_fftr, .llldd_fftr{
+        grid-column: span 2!important;
+    }
+
+
+    .colch_animadd{
+        width: 100%!important;
+        .layer{
+            width: 100%!important;
+        }
+    }
+    .lllnnn_sbb{
+        flex-direction: column;
+    }
+    .lftttt{
+        p{
+            width: 100%!important;
+        }
+    }
+    .linr_info_foottrrr{
+        margin-bottom: 2em!important;
+    }
+
+    .space_griddd{
+        grid-template-columns: $grd2!important;
+    }
+
+    .spac_detall_producto{
+        padding: 0 1em;
+        grid-template-columns: $grd1!important;
+    }
+
+
+}
+
+@media only screen and(max-width: 500px){
+    .lddd_sftrr{
+        flex-direction: column;
+        .menu{
+            display: none!important;
+        }
+    }
+    .content_textt{
+        h3{
+            font-size: 1.8em!important;
+        }
+    }
+    .telfff{
+        display: flex;
+        flex-direction: column!important;
+        span{
+            display: none;
+        }
+        a{
+            margin-bottom: .7em;
+        }
+    }
+}   
+@media only screen and(max-width: 400px){
+    .space_griddd{
+        grid-template-columns: $grd1!important;
+    }
+}

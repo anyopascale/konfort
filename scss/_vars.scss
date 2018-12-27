@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700,900');
+
+$dark1: #000;
+$dark2: #313d49;
+$dark3: #1b2228;
+$base1: #FFFFFF;
+$base2: #f4f4f4;
+$gradient: linear-gradient(90deg, #a3e5e1, #827fd0);
+$primary: #26d2d4;
+$grd1: repeat(1, 1fr);
+$grd2: repeat(2, 1fr);
+$grd2_2: repeat(2, 1fr);
+$grd3: repeat(3, 1fr);
+$gap: 2vw 6vh;
+img {
+    max-width: 100%;
+    display: block;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    img{
+        display: block;
+    }
+    a{
+        text-decoration: none;
+    }
+}
+
+
